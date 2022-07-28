@@ -1,0 +1,41 @@
+---
+canvas: "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "testantoine",
+            "creator": {
+                "id": "antoinecourtin",
+                "name": "Antoine Courtin"
+            },
+            "created": "2022-07-28T08:10:13.572Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "figure d'aime casqu\u00e9",
+            "purpose": "commenting",
+            "creator": {
+                "id": "antoinecourtin",
+                "name": "Antoine Courtin"
+            },
+            "created": "2022-07-28T08:10:17.080Z",
+            "modified": "2022-07-28T08:10:21.253Z"
+        }
+    ],
+    "target": {
+        "source": "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=12587.3623046875,423.8153381347656,2329.51953125,2077.8243103027344"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2750a881-9f3e-4765-a846-226907074e46.json",
+    "motivation": "commenting"
+}
