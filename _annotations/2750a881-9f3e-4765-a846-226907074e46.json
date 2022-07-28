@@ -3,39 +3,39 @@ canvas: "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/h
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "testantoine",
+            "created": "2022-07-28T08:10:13.572Z",
             "creator": {
                 "id": "antoinecourtin",
                 "name": "Antoine Courtin"
             },
-            "created": "2022-07-28T08:10:13.572Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "testantoine"
         },
         {
-            "type": "TextualBody",
-            "value": "figure d'aime casqu\u00e9",
-            "purpose": "commenting",
+            "created": "2022-07-28T08:10:17.080Z",
             "creator": {
                 "id": "antoinecourtin",
                 "name": "Antoine Courtin"
             },
-            "created": "2022-07-28T08:10:17.080Z",
-            "modified": "2022-07-28T08:10:21.253Z"
+            "modified": "2022-07-28T08:11:46.662Z",
+            "purpose": "describing",
+            "type": "TextualBody",
+            "value": "figure d'homme casqu\u00e9"
         }
     ],
-    "target": {
-        "source": "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=12587.3623046875,423.8153381347656,2329.51953125,2077.8243103027344"
-        }
-    },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "2750a881-9f3e-4765-a846-226907074e46.json",
-    "motivation": "commenting"
+    "motivation": "commenting",
+    "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=12587.3623046875,423.8153381347656,2329.51953125,2077.8243103027344"
+        },
+        "source": "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json"
+    },
+    "type": "Annotation"
 }
