@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "Iconographie Personnage",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-multistoryboard annotationurl='https://antoinecourtin.github.io/annonatate/annotations/2750a881-9f3e-4765-a846-226907074e46.json'></iiif-multistoryboard>",
+            "title": "Iconographie Personnage",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
